@@ -1,0 +1,18 @@
+This package should contain the following files:
+- Auction.bat: Used for running the Auction unit tests
+- AuctionComplete.bat: Used for running the Auction unit tests (see below)
+- Auction.jar: Class files for Auction code and JUnit
+- Auction-sources.jar: Source code for the Auction code
+- Readme.txt: This file
+
+The two batch files execute two different Auction implementations:
+Auction.bat - Finds the winner without running the auction
+AuctionComplete.bat - Finds the winner running each step of the auction
+
+There are a lot of source files there because of the two different 
+implementations but it should still be well organized since the
+different implementations share an interface and inherit common
+code via an abstract class.
+
+The source was built using JDK 1.6 and JUnit 4.3.
+

@@ -1,0 +1,1 @@
+java -DComplete -cp Auction.jar org.junit.runner.JUnitCore com.laujer.misc.auction.test.AuctionTest
